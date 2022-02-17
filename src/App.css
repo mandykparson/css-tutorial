@@ -7,6 +7,9 @@
   border: 5px solid;
   padding: 2rem;
   width: min-content;
+  /* The last rule is the most specific */
+  background: green;
+  background: purple;
 }
 /* Define the size yourself */
 #extrinsic {
