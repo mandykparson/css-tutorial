@@ -17,3 +17,12 @@ An inline style attribute with CSS declared in it will override all other CSS, r
 Least specific to most tag < class < id
 * Origin: the order of when CSS appears and where it comes from, whether that is a browser style, CSS from a browser extension, or your authored CSS
 * Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type
+
+# Specificity
+What characteristics get assigned depends on how high the score is. The highest score gets the attribute. 
+0 Points = *
+1 Point = element or pseudo-element
+2 Points = class, pseudo-class, or attribute selector
+100 Points = id
+1000 Points = inline style
+10000 Points = !important
